@@ -1,0 +1,28 @@
+# Ignore build outputs
+**/bin/
+**/obj/
+artifacts/
+
+# Rider IDE specific files
+.idea/
+*.sln.iml
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+
+# VS Code settings (if used)
+.vscode/
+
+# Dotnet Core generated files
+project.lock.json
+project.fragment.lock.json
+
+# NCrunch files (if applicable)
+*.ncrunch*
+*.ncrunchproject
+
+# OS generated files
+.DS_Store
+Thumbs.db
