@@ -11,17 +11,17 @@ public static class LogExceptions
         LogToDebugger(ex.Message);
     }
 
-    private static void LogToDebugger(string exMessage)
+    public static void LogToDebugger(string exMessage)
     {
         Log.Debug(exMessage);
     }
 
-    private static void LogToConsole(string exMessage)
+    public static void LogToConsole(string exMessage)
     {
         Log.Warning(exMessage);
     }
 
-    private static void LogToFile(string exMessage)
+    public static void LogToFile(string exMessage)
     {
         Log.Information(exMessage);
     }
